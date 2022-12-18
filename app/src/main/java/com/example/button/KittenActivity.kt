@@ -12,7 +12,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class KittenActivity : AppCompatActivity() {
     var binding: ActivityKittenBinding?=null
-    val correctApp = true
+    val correctApp = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityKittenBinding.inflate(layoutInflater)

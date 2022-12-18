@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var secretWord = "button"
+    var secretWord = "flashlight"
     var wrongCount = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
