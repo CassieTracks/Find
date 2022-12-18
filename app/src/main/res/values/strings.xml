@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Button</string>
+    <string name="nine">T</string>
+    <string name="eight">Y</string>
+    <string name="seven">R</string>
+    <string name="six">B</string>
+    <string name="five">S</string>
+    <string name="four">C</string>
+    <string name="three">P</string>
+    <string name="two">O</string>
+    <string name="one">H</string>
+    <string name="zero">V</string>
+    <string name="plus">L</string>
+    <string name="minus">A</string>
+    <string name="times">N</string>
+    <string name="divide">M</string>
+    <string name="equal">ENTER</string>
+    <string name="clear">CLR</string>
+    <string name="decimal">I</string>
+</resources>

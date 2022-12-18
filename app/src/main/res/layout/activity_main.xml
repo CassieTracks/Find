@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    >
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:text="Are you sure this is the right app?"
+        android:textSize="26sp"
+
+        />
+    <TextView
+        android:id="@+id/tvHeading1"
+        android:layout_below="@id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:text="If so, you may proceed"
+        android:textSize="26sp"
+
+        />
+    <TextView
+        android:id="@+id/tvHeading2"
+        android:layout_below="@id/tvHeading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:text="Otherwise beware"
+        android:textSize="26sp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPrimary"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tvHeading2"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        app:hintTextColor="@color/colorAccent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Secret Word"
+            android:inputType="text"
+            android:textSize="16sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tilPrimary"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="PROCEED"
+            android:gravity="center_horizontal"
+            android:onClick="onProceed"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

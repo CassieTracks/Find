@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    >
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:text="I’m not the alphabet, "
+        android:textSize="26sp"
+
+        />
+    <TextView
+        android:id="@+id/tvHeading1"
+        android:layout_below="@id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:text="but I have letters"
+        android:textSize="26sp"
+
+        />
+    <TextView
+        android:id="@+id/tvHeading2"
+        android:layout_below="@id/tvHeading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:text="I’m not a pole, "
+        android:textSize="26sp"
+
+        />
+    <TextView
+        android:id="@+id/tvHeading3"
+        android:layout_below="@id/tvHeading2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:text="but I have a flag"
+        android:textSize="26sp"
+
+        />
+
+</RelativeLayout>
